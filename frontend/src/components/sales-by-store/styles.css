@@ -1,0 +1,50 @@
+.sales-container {
+    margin: 10px;
+    width: 100%;
+}
+
+.sales-value-sum {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--secondary-color);
+    padding: 40px 50px 0 15px;
+}
+
+.sales-title {
+    font-size: 18px;
+    color: var(--light-color);
+    padding-left: 15px;
+    padding-bottom: 50px;
+}
+
+@media (min-width: 576px) {
+    .sales-container {
+        margin: 40px;
+    }
+    .sales-value-sum {
+        padding: 40px 50px 0 40px;
+    }
+
+    .sales-title {
+        padding-left: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .sales-container {
+        margin: 40px 15px 50px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sales-dunet-container {
+        padding-top: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .sales-container {
+        margin: 40px 120px 50px 120px;
+    }
+}

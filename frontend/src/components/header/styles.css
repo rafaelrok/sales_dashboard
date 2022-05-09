@@ -1,0 +1,11 @@
+.main-header-container {
+    padding-left: 55px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+.main-header-title{
+    color: var(--secondary-color);
+}
